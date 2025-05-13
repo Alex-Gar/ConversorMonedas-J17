@@ -1,5 +1,9 @@
+import service.MonedaApiService;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hola mundo");
+
+        MonedaApiService appConversionMoneda = new MonedaApiService();
+        appConversionMoneda.menu();
     }
 }
